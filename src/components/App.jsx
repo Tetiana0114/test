@@ -1,3 +1,7 @@
+import Header from 'components/Header';
+import SearchBar from 'components/Searchbar';
+
+
 export const App = () => {
   return (
     <div
@@ -10,7 +14,9 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      Hello
+    
+      <Header/>
+     <SearchBar/>
     </div>
   );
 };
