@@ -1,0 +1,16 @@
+.abilities {
+    display: flex;
+    width: 30%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.abilities .group {
+    background-color: chocolate;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 12px;
+    padding: 8px;
+}

@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 
 const PokemonList = ({ pokemons }) => {
 
@@ -12,12 +11,6 @@ const PokemonList = ({ pokemons }) => {
         ))}
     </ul>
   );
-};
-
-PokemonList.propTypes = {
-  pokemons: PropTypes.arrayOf(PropTypes.shape({
-  id: PropTypes.number.isRequired,
-})),
 };
 
 export default PokemonList;
